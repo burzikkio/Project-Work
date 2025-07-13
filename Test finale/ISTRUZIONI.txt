@@ -1,0 +1,47 @@
+
+GESTIONALE PRODUZIONE - ATHEN S.P.A.
+------------------------------------
+
+Questa applicazione web permette di simulare la produzione di componenti industriali
+in base al materiale e ai prodotti selezionati. Utilizza Python con il framework Flask
+e un'interfaccia HTML basata su Bootstrap.
+
+REQUISITI:
+- Python 3.7 o superiore
+- Flask
+
+INSTALLAZIONE PACCHETTI NECESSARI:
+Apri il terminale e digita:
+    pip install flask
+
+STRUTTURA DEL PROGETTO:
+    /Test finale
+    │
+    ├── progettoFinale.py
+    └── templates
+        └── index.html
+
+ISTRUZIONI PER L'AVVIO:
+1. Posiziona il file .py nella directory principale del progetto.
+2. Crea una sottocartella chiamata "templates" e inserisci al suo interno il file index.html.
+3. Avvia il server eseguendo il comando:
+       python progettoFinale.py
+4. Apri il browser e visita l'indirizzo:
+       http://127.0.0.1:5000/
+
+COME USARE L'APPLICAZIONE:
+1. Seleziona un materiale dal menu a tendina.
+2. Apparirà una lista di prodotti associati a quel materiale.
+3. Seleziona uno o più prodotti e premi il pulsante "Genera Produzione".
+4. Verranno mostrati i risultati della simulazione, tra cui:
+   - Quantità generata
+   - Fattore dimensione
+   - Tempo per unità
+   - Capacità giornaliera
+   - Giorni richiesti
+   - Tempo totale prodotto
+5. Alla fine viene mostrato anche il tempo totale complessivo.
+
+NOTE:
+- I dati generati sono casuali per ogni simulazione.
+- È possibile modificare l'elenco dei materiali e prodotti direttamente nel file .py.
